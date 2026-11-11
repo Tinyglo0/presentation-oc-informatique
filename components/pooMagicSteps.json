@@ -1,0 +1,685 @@
+[
+  {
+    "code": "# 1. Dictionnaire (données séparées)\nheros = {\n  \"pv\": 100,\n  \"atk\": 25,\n}\n\n# Fonction isolée\ndef attaquer(cible):\n  cible[\"pv\"] -= heros[\"atk\"]\n\nattaquer(dragon)",
+    "hash": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo",
+    "tokens": [
+      {
+        "content": "# 1. Dictionnaire (données séparées)",
+        "offset": 0,
+        "color": "#7F848E",
+        "fontStyle": 1,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-0"
+      },
+      {
+        "content": "\n",
+        "offset": 36,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-1"
+      },
+      {
+        "content": "heros",
+        "offset": 37,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-2"
+      },
+      {
+        "content": " ",
+        "offset": 42,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-3"
+      },
+      {
+        "content": "=",
+        "offset": 43,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-4"
+      },
+      {
+        "content": " ",
+        "offset": 44,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-5"
+      },
+      {
+        "content": "{",
+        "offset": 45,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-6"
+      },
+      {
+        "content": "\n",
+        "offset": 46,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-7"
+      },
+      {
+        "content": "  ",
+        "offset": 47,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-8"
+      },
+      {
+        "content": "\"pv\"",
+        "offset": 49,
+        "color": "#98C379",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-9"
+      },
+      {
+        "content": ":",
+        "offset": 53,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-10"
+      },
+      {
+        "content": " ",
+        "offset": 54,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-11"
+      },
+      {
+        "content": "100",
+        "offset": 55,
+        "color": "#D19A66",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-12"
+      },
+      {
+        "content": ",",
+        "offset": 58,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-13"
+      },
+      {
+        "content": "\n",
+        "offset": 59,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-14"
+      },
+      {
+        "content": "  ",
+        "offset": 60,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-15"
+      },
+      {
+        "content": "\"atk\"",
+        "offset": 62,
+        "color": "#98C379",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-16"
+      },
+      {
+        "content": ":",
+        "offset": 67,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-17"
+      },
+      {
+        "content": " ",
+        "offset": 68,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-18"
+      },
+      {
+        "content": "25",
+        "offset": 69,
+        "color": "#D19A66",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-19"
+      },
+      {
+        "content": ",",
+        "offset": 71,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-20"
+      },
+      {
+        "content": "\n",
+        "offset": 72,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-21"
+      },
+      {
+        "content": "}",
+        "offset": 73,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-22"
+      },
+      {
+        "content": "\n",
+        "offset": 74,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-23"
+      },
+      {
+        "content": "\n",
+        "offset": 75,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-24"
+      },
+      {
+        "content": "# Fonction isolée",
+        "offset": 76,
+        "color": "#7F848E",
+        "fontStyle": 1,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-25"
+      },
+      {
+        "content": "\n",
+        "offset": 93,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-26"
+      },
+      {
+        "content": "def",
+        "offset": 94,
+        "color": "#C678DD",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-27"
+      },
+      {
+        "content": " ",
+        "offset": 97,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-28"
+      },
+      {
+        "content": "attaquer",
+        "offset": 98,
+        "color": "#61AFEF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-29"
+      },
+      {
+        "content": "(",
+        "offset": 106,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-30"
+      },
+      {
+        "content": "cible",
+        "offset": 107,
+        "color": "#D19A66",
+        "fontStyle": 1,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-31"
+      },
+      {
+        "content": "):",
+        "offset": 112,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-32"
+      },
+      {
+        "content": "\n",
+        "offset": 114,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-33"
+      },
+      {
+        "content": "  ",
+        "offset": 115,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-34"
+      },
+      {
+        "content": "cible[",
+        "offset": 117,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-35"
+      },
+      {
+        "content": "\"pv\"",
+        "offset": 123,
+        "color": "#98C379",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-36"
+      },
+      {
+        "content": "]",
+        "offset": 127,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-37"
+      },
+      {
+        "content": " ",
+        "offset": 128,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-38"
+      },
+      {
+        "content": "-=",
+        "offset": 129,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-39"
+      },
+      {
+        "content": " ",
+        "offset": 131,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-40"
+      },
+      {
+        "content": "heros[",
+        "offset": 132,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-41"
+      },
+      {
+        "content": "\"atk\"",
+        "offset": 138,
+        "color": "#98C379",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-42"
+      },
+      {
+        "content": "]",
+        "offset": 143,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-43"
+      },
+      {
+        "content": "\n",
+        "offset": 144,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-44"
+      },
+      {
+        "content": "\n",
+        "offset": 145,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-45"
+      },
+      {
+        "content": "attaquer",
+        "offset": 146,
+        "color": "#61AFEF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-46"
+      },
+      {
+        "content": "(dragon)",
+        "offset": 154,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-47"
+      },
+      {
+        "content": "\n",
+        "offset": 162,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-48"
+      }
+    ],
+    "lineNumbers": false,
+    "bg": "#282c34",
+    "fg": "#abb2bf",
+    "themeName": "one-dark-pro",
+    "lang": "python"
+  },
+  {
+    "code": "# 2. Classe POO (données + méthodes)\nclass Heros:\n  pv = 100\n  atk = 25\n\n  # Méthode liée à l objet\n  def attaquer(self, cible):\n    cible.pv -= self.atk\n\nheros = Heros()\nheros.attaquer(dragon)",
+    "hash": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY",
+    "tokens": [
+      {
+        "content": "# 2. Classe POO (données + méthodes)",
+        "offset": 0,
+        "color": "#7F848E",
+        "fontStyle": 1,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-0"
+      },
+      {
+        "content": "\n",
+        "offset": 36,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-1"
+      },
+      {
+        "content": "class",
+        "offset": 37,
+        "color": "#C678DD",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-2"
+      },
+      {
+        "content": " ",
+        "offset": 42,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-3"
+      },
+      {
+        "content": "Heros",
+        "offset": 43,
+        "color": "#E5C07B",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-4"
+      },
+      {
+        "content": ":",
+        "offset": 48,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-5"
+      },
+      {
+        "content": "\n",
+        "offset": 49,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-7"
+      },
+      {
+        "content": "  ",
+        "offset": 50,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-8"
+      },
+      {
+        "content": "pv",
+        "offset": 52,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-8"
+      },
+      {
+        "content": " ",
+        "offset": 54,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-9"
+      },
+      {
+        "content": "=",
+        "offset": 55,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-10"
+      },
+      {
+        "content": " ",
+        "offset": 56,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-11"
+      },
+      {
+        "content": "100",
+        "offset": 57,
+        "color": "#D19A66",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-12"
+      },
+      {
+        "content": "\n",
+        "offset": 60,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-14"
+      },
+      {
+        "content": "  ",
+        "offset": 61,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-15"
+      },
+      {
+        "content": "atk",
+        "offset": 63,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-15"
+      },
+      {
+        "content": " ",
+        "offset": 66,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-16"
+      },
+      {
+        "content": "=",
+        "offset": 67,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-17"
+      },
+      {
+        "content": " ",
+        "offset": 68,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-18"
+      },
+      {
+        "content": "25",
+        "offset": 69,
+        "color": "#D19A66",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-19"
+      },
+      {
+        "content": "\n",
+        "offset": 71,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-21"
+      },
+      {
+        "content": "\n",
+        "offset": 72,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-23"
+      },
+      {
+        "content": "  ",
+        "offset": 73,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-22"
+      },
+      {
+        "content": "# Méthode liée à l objet",
+        "offset": 75,
+        "color": "#7F848E",
+        "fontStyle": 1,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-23"
+      },
+      {
+        "content": "\n",
+        "offset": 99,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-26"
+      },
+      {
+        "content": "  ",
+        "offset": 100,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-25"
+      },
+      {
+        "content": "def",
+        "offset": 102,
+        "color": "#C678DD",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-27"
+      },
+      {
+        "content": " ",
+        "offset": 105,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-28"
+      },
+      {
+        "content": "attaquer",
+        "offset": 106,
+        "color": "#61AFEF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-29"
+      },
+      {
+        "content": "(",
+        "offset": 114,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-30"
+      },
+      {
+        "content": "self",
+        "offset": 115,
+        "color": "#E5C07B",
+        "fontStyle": 1,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-30"
+      },
+      {
+        "content": ",",
+        "offset": 119,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-31"
+      },
+      {
+        "content": " ",
+        "offset": 120,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-32"
+      },
+      {
+        "content": "cible",
+        "offset": 121,
+        "color": "#D19A66",
+        "fontStyle": 1,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-31"
+      },
+      {
+        "content": "):",
+        "offset": 126,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-32"
+      },
+      {
+        "content": "\n",
+        "offset": 128,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-33"
+      },
+      {
+        "content": "    ",
+        "offset": 129,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-36"
+      },
+      {
+        "content": "cible.pv",
+        "offset": 133,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-37"
+      },
+      {
+        "content": " ",
+        "offset": 141,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-38"
+      },
+      {
+        "content": "-=",
+        "offset": 142,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-39"
+      },
+      {
+        "content": " ",
+        "offset": 144,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-40"
+      },
+      {
+        "content": "self",
+        "offset": 145,
+        "color": "#E5C07B",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-41"
+      },
+      {
+        "content": ".atk",
+        "offset": 149,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-42"
+      },
+      {
+        "content": "\n",
+        "offset": 153,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-43"
+      },
+      {
+        "content": "\n",
+        "offset": 154,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-44"
+      },
+      {
+        "content": "heros",
+        "offset": 155,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-2"
+      },
+      {
+        "content": " ",
+        "offset": 160,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-46"
+      },
+      {
+        "content": "=",
+        "offset": 161,
+        "color": "#56B6C2",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-47"
+      },
+      {
+        "content": " ",
+        "offset": 162,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-48"
+      },
+      {
+        "content": "Heros",
+        "offset": 163,
+        "color": "#61AFEF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-49"
+      },
+      {
+        "content": "()",
+        "offset": 168,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-50"
+      },
+      {
+        "content": "\n",
+        "offset": 170,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-45"
+      },
+      {
+        "content": "heros.",
+        "offset": 171,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-52"
+      },
+      {
+        "content": "attaquer",
+        "offset": 177,
+        "color": "#61AFEF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-46"
+      },
+      {
+        "content": "(dragon)",
+        "offset": 185,
+        "color": "#ABB2BF",
+        "fontStyle": 0,
+        "key": "NfKzMPTNo_hREHyvrJgJJ8-sSVlorG3Jeib_xtv2VOo-47"
+      },
+      {
+        "content": "\n",
+        "offset": 193,
+        "key": "xK4gynlcj1l_MgkAZBD3XUiQ8Z85m1ZM_lkh-4-eWDY-55"
+      }
+    ],
+    "lineNumbers": false,
+    "bg": "#282c34",
+    "fg": "#abb2bf",
+    "themeName": "one-dark-pro",
+    "lang": "python"
+  }
+]
